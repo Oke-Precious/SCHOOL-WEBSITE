@@ -206,3 +206,21 @@
 .sec2 div p{
   text-align: justify;
 } 
+.sec3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3Container{
+  width: 55%;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.sec3Container nav{
+  background-color: rgb(235, 234, 234);
+  font-size: 22px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
