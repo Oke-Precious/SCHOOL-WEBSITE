@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    outline: red solid 1px;
+    /* outline: red solid 1px; */
     box-sizing: border-box;
 }
 
@@ -141,4 +141,47 @@
   width: 100%;
   margin-top: -230px ;
   height: 950px;
+  position: relative;
+}
+.sec1 .carousel-item img{
+  
+}
+.textOnCaro{
+  position: absolute;
+  z-index: 3 !important;
+  top: 55%;
+  left: 30%;
+  width: 500px;
+  color: white;
+}
+.textOnCaro h1{
+  font-size: 70px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textOnCaro p{
+  font-weight: bold;
+  font-size: 22px;
+}
+.textOnCaro button{
+  font-weight: bold;
+  background-color: orange;
+  color: white;
+  transition: 300ms;
+  padding: 10px 20px;
+  border: none;
+}
+.textOnCaro button:hover{
+  background-color: rgb(118, 160, 160);
+}
+.caroprevbtn{
+  position: absolute !important;
+  top: -200px;
+  left: 20px;
+  top: 40%;
+}
+.caronextbtn{
+  position: absolute !important;
+  right: 20px;
+  top: 40%;
+  /* z-index: 3; */
 }
