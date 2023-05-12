@@ -224,3 +224,13 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.sec3Container{
+  border: rgb(235, 234, 234) solid 1px;
+}
+.sec3Container .cardCon{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sec3Container .cardCon img{
+  height: 200px;
+}
