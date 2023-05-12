@@ -143,9 +143,7 @@
   height: 950px;
   position: relative;
 }
-.sec1 .carousel-item img{
-  
-}
+
 .textOnCaro{
   position: absolute;
   z-index: 3 !important;
@@ -321,4 +319,16 @@
 }
 .cardLine{
   border:solid 1px rgb(235, 234, 234);
+}
+
+@media screen and (max-width:900px){
+  .sec1 .carousel-item{
+    margin-top: 20px;
+  }
+  .sec2 div{
+    width: 90%;
+  }
+  .sec3Container{
+    width: 90%;
+  }
 }
