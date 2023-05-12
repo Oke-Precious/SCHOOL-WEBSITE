@@ -229,8 +229,17 @@
 }
 .sec3Container .cardCon{
   display: grid;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+  .sec3Container .cardCon .card{
+    /* width: 20%; */
+  }
 .sec3Container .cardCon img{
   height: 200px;
+}
+.sec3Container .cardCon .card h5{
+  color: rgb(35, 74, 126);
 }
