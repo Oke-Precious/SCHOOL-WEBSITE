@@ -162,7 +162,7 @@
   font-weight: bold;
   font-size: 22px;
 }
-.textOnCaro button{
+.mainBtn{
   font-weight: bold;
   background-color: orange;
   color: white;
@@ -170,8 +170,9 @@
   padding: 10px 20px;
   border: none;
 }
-.textOnCaro button:hover{
+.mainBtn:hover{
   background-color: rgb(118, 160, 160);
+  color: black;
 }
 .caroprevbtn{
   position: absolute !important;
