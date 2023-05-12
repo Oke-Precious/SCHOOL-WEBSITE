@@ -249,10 +249,10 @@
 .book {
   position: relative;
   border-radius: 10px;
-  width: 220px;
-  height: 300px;
+  /* width: 220px;
+  height: 300px; */
   background-color: whitesmoke;
-  -webkit-box-shadow: 1px 1px 12px #000;
+  -webkit-box-shadow: 1px 1px 5px #b6b6b6;
   box-shadow: 1px 1px 12px #000;
   -webkit-transform: preserve-3d;
   -ms-transform: preserve-3d;
@@ -274,7 +274,7 @@
 .cover {
   top: 0;
   position: absolute;
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.692);
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -284,8 +284,8 @@
   -webkit-transform-origin: 0;
   -ms-transform-origin: 0;
   transform-origin: 0;
-  -webkit-box-shadow: 1px 1px 12px #000;
-  box-shadow: 1px 1px 12px #000;
+  /* -webkit-box-shadow: 1px 1px 12px #000; */
+  /* box-shadow: 1px 1px 12px #000; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,4 +308,17 @@
 .twoPart{
   margin: 20px;
   gap: 20px;
+}
+.operation{
+  display: grid;
+  padding: 20px ;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.operation img{
+  height: 100%;
+  width: 100%;
+}
+.cardLine{
+  border:solid 1px rgb(235, 234, 234);
 }
