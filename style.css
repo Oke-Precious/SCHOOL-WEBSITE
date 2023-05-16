@@ -235,10 +235,10 @@
   padding: 20px;
   gap: 20px;
   width: 100%;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
 }
   .sec3Container .cardCon .card{
-    /* width: 20%; */
+    margin-bottom: 20px;
   }
 .sec3Container .cardCon img{
   height: 200px;
@@ -324,7 +324,22 @@
 .cardLine{
   border:solid 1px rgb(235, 234, 234);
 }
-
+.newsContent{
+  padding: 20px;
+}
+.ncontents{
+  border-top:#b6b6b6 2px solid;
+}
+.ncontents h5{
+  cursor: pointer;
+  margin: 15px 0px 0px 0px ;
+  font-weight: bold;
+  transition: 300ms;
+  color: rgb(35, 74, 126);
+}
+.ncontents h5:hover{
+  color: #8a8a8a;
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
