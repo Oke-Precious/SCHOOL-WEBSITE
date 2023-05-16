@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    outline: red solid 1px;
+    /* outline: red solid 1px; */
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@
     width: 100%;
     position: fixed;
     z-index: 5;
-    /* display: grid; */
+    align-items: center;
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
     background-color: rgb(35, 74, 126);
@@ -146,7 +146,9 @@
   height: 950px;
   position: relative;
 }
-
+.d2{
+  display: none;
+}
 .textOnCaro{
   position: absolute;
   z-index: 3 !important;
@@ -330,6 +332,10 @@
     padding: 20px;
     width: 50%;
 }
+.d2{
+  display: block;
+  height: 50px;
+}
   .sec1 .carousel-item{
     margin-top: 20px;
   }
@@ -351,51 +357,10 @@
 
   }
 
-  .label-check {
-    display: none;
-  }
-  
-  .hamburger-label {
-    width: 70px;
-    height: 58px;
-    display: block;
-    cursor: pointer;
-  }
-  
-  .hamburger-label div {
-    width: 70px;
-    height: 6px;
-    background-color: #fff;
-    position: absolute;
-  }
-  
-  .line1 {
-    transition: all .3s;
-  }
-  
-  .line2 {
-    margin: 18px 0 0 0;
-    transition: 0.3s;
-  }
-  
-  .line3 {
-    margin: 36px 0 0 0;
-    transition: 0.3s;
-  }
-  
-  #label-check:checked + .hamburger-label .line1 {
-    transform: rotate(35deg) scaleX(.55) translate(39px, -4.5px);
-    border-radius: 50px 50px 50px 0;
-  }
-  
-  #label-check:checked + .hamburger-label .line3 {
-    transform: rotate(-35deg) scaleX(.55) translate(39px, 4.5px);
-    border-radius: 0 50px 50px 50px;
-  }
-  
-  #label-check:checked + .hamburger-label .line2 {
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    width: 45px;
+  .sec1 .carousel-item{
+    width: 100%;
+    margin-top: 30px ;
+    height: 950px;
+    position: relative;
   }
 }
