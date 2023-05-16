@@ -340,6 +340,11 @@
 .ncontents h5:hover{
   color: #8a8a8a;
 }
+.sec4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
