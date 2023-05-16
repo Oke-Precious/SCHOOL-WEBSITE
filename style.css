@@ -345,6 +345,23 @@
   justify-content: center;
   align-items: center;
 }
+.sec4Container{
+  width: 50%;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.sec4part1{
+  width: 100%;
+}
+.sec4part1 header{
+  background-color: rgb(235, 234, 234);
+}
+.sec4part1 header h2{
+  font-weight: bolder;
+}
+.sec4part2{
+  width: 100%;
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
