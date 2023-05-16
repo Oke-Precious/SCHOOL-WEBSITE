@@ -358,8 +358,8 @@
 
   .sec1 .carousel-item{
     width: 100%;
-    margin-top:95px ;
-    height: 100%x;
+    margin-top:86px ;
+    height: 100%;
     position: relative;
   }
   .caroprevbtn{
@@ -368,11 +368,28 @@
     top: 40%;
   }
   .caroprevbtn, .caronextbtn{
-  
     top: 30%;
   }
-  .textOnCaro{
-    display: none;
-  }
 
+  .textOnCaro{
+    left: 0;
+    position: relative;
+    padding: 20px;
+    z-index: 3 !important;
+    top: 0;
+    background-color:rgb(35, 74, 126) ;
+    width: 100%;
+    color: white;
+  }
+  .textOnCaro h1{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .textOnCaro p{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .sec2{
+    margin-top: 20px;
+  }
 }
