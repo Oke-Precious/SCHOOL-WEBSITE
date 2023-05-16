@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* outline: red solid 1px; */
+    outline: red solid 1px;
     box-sizing: border-box;
 }
 
@@ -22,6 +22,9 @@
 .part2nav{
     width: 50%;
     position: relative;
+}
+.part3nav{
+  display: none;
 }
 .bluetopNav{
     background-color: rgb(175, 233, 233);
@@ -322,6 +325,15 @@
 }
 
 @media screen and (max-width:900px){
+  .loadingNav{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: end;
+  }
+  .logoimg{
+    padding: 20px;
+    width: 50%;
+}
   .sec1 .carousel-item{
     margin-top: 20px;
   }
@@ -330,5 +342,60 @@
   }
   .sec3Container{
     width: 90%;
+  }
+  .part3nav{
+    display: flex;
+  }
+  .part2nav{
+    display: none;
+    
+  }
+
+  .label-check {
+    display: none;
+  }
+  
+  .hamburger-label {
+    width: 70px;
+    height: 58px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .hamburger-label div {
+    width: 70px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .line1 {
+    transition: all .3s;
+  }
+  
+  .line2 {
+    margin: 18px 0 0 0;
+    transition: 0.3s;
+  }
+  
+  .line3 {
+    margin: 36px 0 0 0;
+    transition: 0.3s;
+  }
+  
+  #label-check:checked + .hamburger-label .line1 {
+    transform: rotate(35deg) scaleX(.55) translate(39px, -4.5px);
+    border-radius: 50px 50px 50px 0;
+  }
+  
+  #label-check:checked + .hamburger-label .line3 {
+    transform: rotate(-35deg) scaleX(.55) translate(39px, 4.5px);
+    border-radius: 0 50px 50px 50px;
+  }
+  
+  #label-check:checked + .hamburger-label .line2 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 45px;
   }
 }
