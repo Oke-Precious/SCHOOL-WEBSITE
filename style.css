@@ -179,7 +179,6 @@
 }
 .caroprevbtn{
   position: absolute !important;
-  top: -200px;
   left: 20px;
   top: 40%;
 }
@@ -326,7 +325,7 @@
   border:solid 1px rgb(235, 234, 234);
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:1024px){
   
   .logoimg{
     padding: 20px;
@@ -359,8 +358,21 @@
 
   .sec1 .carousel-item{
     width: 100%;
-    margin-top: 30px ;
-    height: 950px;
+    margin-top:95px ;
+    height: 100%x;
     position: relative;
   }
+  .caroprevbtn{
+    position: absolute !important;
+    left: 20px;
+    top: 40%;
+  }
+  .caroprevbtn, .caronextbtn{
+  
+    top: 30%;
+  }
+  .textOnCaro{
+    display: none;
+  }
+
 }
