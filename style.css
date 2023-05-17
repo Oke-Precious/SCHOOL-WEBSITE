@@ -355,9 +355,17 @@
 }
 .sec4part1 header{
   background-color: rgb(235, 234, 234);
+  padding: 10px;
 }
 .sec4part1 header h2{
   font-weight: bolder;
+}
+.s4p1content{
+  padding: 15px;
+}
+.s4p1content h4{
+  font-weight: bold;
+  
 }
 .sec4part2{
   width: 100%;
