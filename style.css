@@ -349,12 +349,14 @@
   width: 50%;
   border-radius: 5px;
   margin-top: 30px;
+  gap: 20px;
 }
 .sec4part1{
   width: 100%;
+  border:solid 1px rgb(235, 234, 234) ;
 }
 .sec4part1 header{
-  background-color: rgb(235, 234, 234);
+  background-color:rgb(235, 234, 234);
   padding: 10px;
 }
 .sec4part1 header h2{
@@ -372,6 +374,7 @@
 }
 .sec4part2{
   width: 100%;
+  border:solid 1px rgb(235, 234, 234) ;
 }
 @media screen and (max-width:1024px){
   
