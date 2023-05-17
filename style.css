@@ -365,7 +365,10 @@
 }
 .s4p1content h4{
   font-weight: bold;
-  
+  color: rgb(35, 74, 126);
+}
+.s4p1content ul{
+  font-size: 16px;
 }
 .sec4part2{
   width: 100%;
