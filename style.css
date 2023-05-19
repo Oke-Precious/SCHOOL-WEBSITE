@@ -376,6 +376,26 @@
   width: 100%;
   border:solid 1px rgb(235, 234, 234) ;
 }
+.sec4part2 nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding:10px 20px;
+}
+.igLogo{
+  background-color:rgb(35, 74, 126);
+  width: 30px;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.sec4part2 nav div a{
+  color: black;
+  text-decoration: none;
+}
+.sec4part2 nav div a:hover{
+  text-decoration: underline;
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
