@@ -396,6 +396,9 @@
 .sec4part2 nav div a:hover{
   text-decoration: underline;
 }
+.entrance{
+  width: 100%;
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
