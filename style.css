@@ -490,7 +490,7 @@
 .inputbox {
   position: relative;
   width: 100%;
-  margin: 25px 0;
+  margin: 30px 0;
 }
 
 .inputbox .inpArea {
@@ -617,5 +617,8 @@
   }
   .sec4Container{
     width: 90%;
+  }
+  .sec5 .sec5con{
+    width: 100%;
   }
 }
