@@ -476,6 +476,20 @@
 .igicons span:hover {
   color: red;
 }
+.sec5{
+  background-color: rgb(213, 235, 235);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.sec5 div{
+  width: 50%;
+  
+}
+
+
+
+
 @media screen and (max-width:1024px){
   
   .logoimg{
