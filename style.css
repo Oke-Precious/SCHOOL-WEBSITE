@@ -482,12 +482,70 @@
   display: flex;
   justify-content: center;
 }
-.sec5 div{
+.sec5 .sec5con{
   width: 50%;
-  
 }
 
+/*============INput form================= */
+.inputbox {
+  position: relative;
+  width: 100%;
+  margin: 25px 0;
+}
 
+.inputbox .inpArea {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: black ;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.inputbox .inpArea:valid ~span,
+.inputbox .inpArea:focus ~span {
+  color: rgb(35, 74, 126);
+  font-weight: 600;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0,75em;
+}
+
+.inputbox i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: rgb(148, 175, 209);
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.inputbox .inpArea:valid ~i,
+.inputbox .inpArea:focus ~i {
+  height: 44px;
+}
+/* ===========Input form end============ */
 
 
 @media screen and (max-width:1024px){
