@@ -206,7 +206,7 @@
   text-align: center;
   width:50%;
 }
-.sec2 div p{
+.sec2 div p, .sec2 div h1{
   text-align: justify;
 } 
 .sec3{
