@@ -545,6 +545,13 @@
 .inputbox .inpArea:focus ~i {
   height: 44px;
 }
+.inpTextArea{
+  height: 100px !important;
+}
+.inputbox .inpTextArea:valid ~i,
+.inputbox .inpTextArea:focus ~i {
+  height: 100px;
+}
 /* ===========Input form end============ */
 
 
