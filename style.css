@@ -410,8 +410,8 @@
   --radii: 0.5em;
   cursor: pointer;
   padding: 0.9em 1.4em;
-  min-width: 120px;
-  min-height: 44px;
+  min-width: 100px;
+  min-height: 40px;
   font-size: var(--size, 1rem);
   font-family: "Segoe UI", system-ui, sans-serif;
   font-weight: 500;
@@ -460,8 +460,22 @@
     left: 50%;
   }
 }
-
-
+.igicons{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px  rgb(235, 234, 234) ;
+}
+.igicons span{
+  font-size: 25px;
+}
+.igicons p{
+  margin: 0;
+}
+.igicons span:hover {
+  color: red;
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
@@ -528,5 +542,8 @@
   }
   .sec2{
     margin-top: 20px;
+  }
+  .sec4Container{
+    width: 90%;
   }
 }
