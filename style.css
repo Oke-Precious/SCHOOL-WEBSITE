@@ -486,6 +486,20 @@
   width: 50%;
 }
 
+
+.sec6{
+  background-color: rgb(35, 74, 126);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.sec6 h3{
+  color: white;
+
+}
 /*============INput form================= */
 .inputbox {
   position: relative;
