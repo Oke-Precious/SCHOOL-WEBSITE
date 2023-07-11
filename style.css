@@ -579,10 +579,7 @@
   display: flex;
   gap: 20px;
 }
-.sec7parts img{
-  width: 300px;
-  height: 100%;
-}
+
 .sec7parts div header{
   font-size: 30px;
   color: rgb(35, 74, 126);
@@ -595,8 +592,20 @@
 .sec7parts div p{
   margin: 0;
 }
+.sec7socialMedias button{
+  outline: none;
+  border: none;
+  height: 30px;
+  transition: 300ms;
+  width: 30px;
+  background-color: orange;
+  color: white;
+}
+.sec7socialMedias button:hover{
+  color: rgb(35, 74, 126);
 
-
+  background-color: rgb(170, 228, 228);
+}
 @media screen and (max-width:1024px){
   
   .logoimg{
