@@ -572,14 +572,14 @@
   justify-content: center;
 }
 .sec7Container{
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .sec7parts{
   display: flex;
-  gap: 50px;
+  gap: 70px;
 }
 
 .sec7parts div header{
