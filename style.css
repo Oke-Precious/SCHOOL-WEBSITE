@@ -615,8 +615,22 @@
 }
 .sec7socialMedias button:hover{
   color: rgb(35, 74, 126);
-
   background-color: rgb(170, 228, 228);
+}
+.sciNav{
+  background-color: orange;
+}
+.scifooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerContainer{
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @media screen and (max-width:1024px){
   
