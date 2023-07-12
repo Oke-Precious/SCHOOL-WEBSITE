@@ -776,4 +776,11 @@
 .accordion-item, .accordion-button{
   background-color: transparent !important;
 }
+.accordion-button{
+  font-family: Oswald;
+  letter-spacing: 2px;
+  font-size: 20px !important;
+  font-weight: bold;
+  color: rgb(35, 74, 126);
+}
 }
