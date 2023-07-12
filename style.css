@@ -775,12 +775,23 @@
 /* =========ACCOURDION=========== */
 .accordion-item, .accordion-button{
   background-color: transparent !important;
+  border: none !important;
 }
 .accordion-button{
   font-family: Oswald;
   letter-spacing: 2px;
   font-size: 20px !important;
   font-weight: bold;
+  color: rgb(35, 74, 126) !important;
+}
+.accBodyTop{
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px -10px gray;
+}
+.accordion-item h4{
   color: rgb(35, 74, 126);
+  margin: 20px 0 20px 0;
 }
 }
