@@ -765,4 +765,15 @@
   display: block;
 }
 
+
+/* ======Offcanvas======== */
+.mediumOffcanvas{
+  width: 80% !important;
+  background-color: #dbf3fc !important;
+}
+
+/* =========ACCOURDION=========== */
+.accordion-item, .accordion-button{
+  background-color: transparent !important;
+}
 }
