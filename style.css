@@ -680,12 +680,22 @@
   width: 100%;
 }
 .supContainer{
-  margin-top: 20px;
+  margin-top:0 30px 0 30px;
   background-color: rgba(255, 255, 255, 0.904);
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 0 30px -5px gray;
   padding: 50px 30px;
+}
+
+.supContainer button{
+  text-align: center;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  padding: 10px;
+  margin:30px 0;
+
 }
 @media screen and (max-width:1024px){
   
