@@ -12,7 +12,7 @@
     <div class="supContainer">
         <p><img src="media/sci2 logo.png" alt="" style="width: 100px;"></p>
         <header class="text-center mb-5">
-            <h3 class="dBlue">2023-2024 K-12 School Placement Information </h3>
+            <h3 class="dBlue text-start">2023-2024 K-12 School Placement Information </h3>
             <p class="text-start">
                 Families can complete this form to receive a student’s placement information for the 2023-2024 school year via
                 email. You will not be able to successfully submit the form if the student's date of birth and parent/guardian email
@@ -28,30 +28,38 @@
                 through September 15. For more information on Open Enrollment, <a href="">visit us online.</a>
             </p>
         </header>
-        <section class="formContainer">
-            <div class="form mb-3">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" class="w-100 form-control">
+        <section class="formContainer row">
+            <p style="font-weight: 600;">Student Information</p>
+            <div class="form mb-3 col-6">
+                <label for="fName">First Name <span class="text-danger">*</span></label><br>
+                <input type="text" id="fName" class="w-100 form-control">
             </div>
 
-            <div class="form mb-3">
-                <label for="email">Email</label><br>
-                <input type="text" id="email" class="w-100 form-control">
+            <div class="form mb-3 col-6">
+                <label for="lName">Last Name <span class="text-danger">*</span></label><br>
+                <input type="text" id="lName" class="w-100 form-control">
             </div>
 
-            <div class="form mb-3">
-                <label for="phone">Phone</label><br>
-                <input type="text" id="phone" class="w-100 form-control">
+            <div class="form mb-3 col-6">
+                <label for="dob">Date of Birth<span class="text-danger">*</span></label><br>
+                <input type="date" id="dob" class="w-100 form-control">
             </div>
 
-            <div class="form mb-3">
-                <label for="password">Password</label><br>
-                <input type="text" id="password" class="w-100 form-control">
+
+            <p style="font-weight: 600;">Parent/Guardian Information</p>
+            <div class="form mb-3 col-6">
+                <label for="parentfName">First Name <span class="text-danger">*</span></label><br>
+                <input type="text" id="fName" class="w-100 form-control">
             </div>
 
-            <div class="form mb-3">
-                <label for="cpassword">Confirm Password</label><br>
-                <input type="text" id="cpassword" class="w-100 form-control">
+            <div class="form mb-3 col-6">
+                <label for="parentlName">Last Name <span class="text-danger">*</span></label><br>
+                <input type="text" id="lName" class="w-100 form-control">
+            </div>
+
+            <div class="form mb-3 col-6">
+                <label for="email">Email <span class="text-danger">*</span></label><br>
+                <input type="email" id="email" class="w-100 form-control">
             </div>
 
             <button class="bdBlue w-100 signBtn">Create Account</button>
