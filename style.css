@@ -680,14 +680,14 @@
   width: 100%;
 }
 .supContainer{
-  background-color: rgba(255, 255, 255, 0.904);
+  background-color: rgba(255, 255, 255, 0.884);
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 0 30px -5px gray;
   padding: 50px 30px;
 }
 
-.supContainer button{
+.signBtn{
   text-align: center;
   border-radius: 10px;
   border: 0;
@@ -711,7 +711,7 @@
 }
 .sipContainer{
   padding: 100px 20px;
-  background-color: rgba(255, 255, 255, 0.904);
+  background-color: rgba(255, 255, 255, 0.884);
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 0 30px -5px gray;
@@ -874,5 +874,16 @@
 .supContainer{
   width: 100%;
 
+}
+
+/* ========SIGNIN PAGE======== */
+.signInPage{
+  height: 100%;
+  background-color: #e7e6e6;
+  background-image: none;
+  padding: 20px;
+}
+.sipContainer{
+  width: 100%;
 }
 }
