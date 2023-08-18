@@ -17,13 +17,11 @@
   background-color: orange;
 }
 .landingNav{
-    /* height: 40px; */
     width: 100%;
     position: fixed;
     z-index: 15;
     align-items: center;
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     background-color: rgb(35, 74, 126);
 }
 .logoimg{
@@ -835,7 +833,12 @@
   width: 80% !important;
   background-color: #dbf3fc !important;
 }
-
+ 
+.offacanvasPart2{
+  padding: 20px;
+  border-radius: 10px 0;
+  color: white;
+}
 /* =========ACCOURDION=========== */
 .accordion-item, .accordion-button{
   background-color: transparent !important;
