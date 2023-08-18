@@ -4,7 +4,16 @@
     /* outline: red solid 1px; */
     box-sizing: border-box;
 }
-
+.dBlue{
+  color: rgb(39, 83, 141);
+}
+.bdBlue{
+  background-color: rgb(39, 83, 141);
+}
+.pNo{
+  margin: 0;
+  padding: 0;
+}
 .landingNav{
     /* height: 40px; */
     width: 100%;
@@ -651,6 +660,26 @@
 }
 .footerparts a:hover{
   color: white;
+}
+
+
+
+/* =========SIGNUP PAGE========= */
+.signUpPage{
+  position: relative !important;
+  display: flex;
+  align-items: center ;
+  justify-content: center ;
+  background-color: rgb(236, 234, 234);
+  width: 100%;
+}
+.supContainer{
+  margin-top: 20px;
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px -5px gray;
+  padding: 50px 30px;
 }
 @media screen and (max-width:1024px){
   
