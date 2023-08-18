@@ -670,6 +670,7 @@
 .signUpPage{
   position: relative !important;
   display: flex;
+
   align-items: center ;
   height: 100vh;
   justify-content: center ;
@@ -842,5 +843,18 @@
 .schGov p {
   color: rgb(35, 74, 126);
   font-weight: 600;
+}
+
+
+/* ========SIGNUP PAGE======== */
+.signUpPage{
+  height: 100%;
+  background-color: #e7e6e6;
+  background-image: none;
+  padding: 20px;
+}
+.supContainer{
+  width: 100%;
+
 }
 }
