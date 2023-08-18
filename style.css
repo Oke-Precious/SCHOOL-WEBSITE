@@ -20,7 +20,7 @@
     /* height: 40px; */
     width: 100%;
     position: fixed;
-    z-index: 5;
+    z-index: 15;
     align-items: center;
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
