@@ -10,9 +10,11 @@
 .bdBlue{
   background-color: rgb(39, 83, 141);
 }
-.pNo{
-  margin: 0;
-  padding: 0;
+.orange{
+  color: orange;
+}
+.borange{
+  background-color: orange;
 }
 .landingNav{
     /* height: 40px; */
@@ -669,13 +671,17 @@
   position: relative !important;
   display: flex;
   align-items: center ;
+  height: 100vh;
   justify-content: center ;
-  background-color: rgb(236, 234, 234);
+  background-image: url(./media/caro\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100%;
   width: 100%;
 }
 .supContainer{
   margin-top: 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.904);
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 0 30px -5px gray;
